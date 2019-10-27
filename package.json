@@ -1,0 +1,27 @@
+{
+  "name": "mental-snapp",
+  "version": "1.0.0",
+  "description": "People are having issues controlling their feelings and keeping up with their lives. In **Mental Snapp** we've created a routine for those people that involves self-reflection and journalling, we believe that by making our users write down about their feelings or life then they will feel better :100: about themselves, our main goal is helping people in **maintaining positive mental health** outcomes. ### Problem Statement :exclamation: The users need a way to connect to their feelings so that they can accept themselves and feel confident that they can manage their lives.",
+  "main": "index.js",
+  "scripts": {
+    "dev:react": "cd client && npm run start",
+    "client:eslint": "cd client && npm run eslint ",
+    "fix:eslint": "cd client && npm run fix:eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G7/mental-snapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G7/mental-snapp/issues"
+  },
+  "homepage": "https://github.com/GSG-G7/mental-snapp#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "client:eslint"
+  ]
+}
