@@ -6,7 +6,12 @@
   "scripts": {
     "dev:react": "cd client && npm run start",
     "client:eslint": "cd client && npm run eslint ",
-    "fix:eslint": "cd client && npm run fix:eslint"
+    "func:eslint": "cd server/functions && npm run lint ",
+    "fix:eslint": "cd client && npm run fix:eslint && cd .. && cd server/functions && npm run fix:lint",
+    "install": "cd client && npm i && cd .. && cd server/functions && npm i",
+    "func:start": "cd server/functions && npm run start",
+    "func:deploy": "cd server/functions && npm run deploy",
+    "func:serve": "cd server/functions && npm run serve"
   },
   "repository": {
     "type": "git",
@@ -22,6 +27,8 @@
     "pre-commit": "^1.2.2"
   },
   "pre-commit": [
-    "client:eslint"
-  ]
+    "client:eslint",
+    "func:eslint"
+  ],
+  "dependencies": {}
 }
