@@ -57,7 +57,7 @@ class SignInForm extends React.Component {
 
         <section className="signin__form">
           <Form onSubmit={this.handleSubmit}>
-            <Form.Item hasFeedback>
+            <Form.Item>
               {getFieldDecorator('email', {
                 rules: [
                   {
@@ -77,7 +77,7 @@ class SignInForm extends React.Component {
               )}
             </Form.Item>
 
-            <Form.Item hasFeedback>
+            <Form.Item>
               {getFieldDecorator('password', {
                 rules: [
                   {
