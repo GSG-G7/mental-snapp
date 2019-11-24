@@ -13,6 +13,7 @@ Users need a way to connect to their feelings so that they can accept themselves
 Mental Snapp supports users in developing an active self awareness so that they can reframe negative moods into positive ones and as a result they can move from victims to someones who are in control.
 
 ### Our App Figma Design: 
+Here where you can find [Our Figma Prototype](https://www.figma.com/proto/NdSdcFUdpgpUSoY5Tah1f9/My-Mental-Health-Story?node-id=125%3A70&scaling=min-zoom)
 <img src="./src/containers/assets/images/figma-design.png" alt="figma design photo" />
 
 ### User Stories :books:
